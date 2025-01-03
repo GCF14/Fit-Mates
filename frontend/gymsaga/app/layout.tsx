@@ -26,6 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Adding Mapbox CSS */}
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
+        {/* Other global meta tags */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
